@@ -6,7 +6,7 @@
     -webkit-box-shadow: 0px 0px 20px #999;
     box-shadow: 0px 0px 20px #999;
     position: absolute;
-    width: 276px;
+    width: 280px;
     height: 190px;
     z-index: 1;
     font-size: 12px;
@@ -25,10 +25,11 @@
 
     .city-tab li {
         float: left;
-        padding: 8px 0;
+        height: 32px;
+        line-height: 32px;
         position: relative;
         text-align: center;
-        width: 69px;
+        width: 70px;
     }
 
         .city-tab li:hover {
@@ -39,7 +40,6 @@
 .city-tab-active {
     background-color: #5FA3D4;
     color: #016B9F;
-    height: 16px;
 }
 
 .city-content {
@@ -61,12 +61,12 @@
 .city-action-prev, .city-action-next {
     background-color: #016B9F;
     color: #fff;
-    padding: 71px 10px;
+    padding: 70px 10px;
 }
 
-.city-action-next:hover, .city-action-prev:hover{
-    cursor:pointer;
-}
+    .city-action-next:hover, .city-action-prev:hover {
+        cursor: pointer;
+    }
 
 .city-content-item li {
     float: left;
@@ -82,14 +82,14 @@
     padding: 0 4px;
 }
 
-.city-item-center a{
-    color:#5FA3D4;
-    text-decoration:none;
-}
+    .city-item-center a {
+        color: #5FA3D4;
+        text-decoration: none;
+    }
 
-.city-item-center a:hover{
-    color:#016B9F;
-}
+        .city-item-center a:hover {
+            color: #016B9F;
+        }
 
 .city-search {
     background-color: #fff;
