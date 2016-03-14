@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>示例-1</title>
+    <link href="../css/jquery.city.css" rel="stylesheet" />
+    <link href="../css/animate.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-2">
+            <input type="text" id="txt_city" class="form-control" />
+        </div>
+    </div>
+    <script src="../js/jquery-1.10.2.js"></script>
+    <script src="../js/jquery.city.js"></script>
+    <script>
+        $(function () {
+            $('#txt_city').jcity({
+                urlOrData: '/js/citydata.json',
+                animate: { showClass: 'animated flipInX', hideClass: 'animated flipOutX' },
+                onChoice: function (data) {
+                    console.log(data);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
