@@ -55,13 +55,13 @@
     background-color: #fff;
     padding: 18px 0;
     height: 121px;
-    width: 222px;
+    width: 220px;
 }
 
 .city-action-prev, .city-action-next {
     background-color: #016B9F;
     color: #fff;
-    padding: 71px 10px;
+    padding: 70px 10px;
 }
 
 .city-action-next:hover, .city-action-prev:hover{
