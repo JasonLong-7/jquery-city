@@ -6,7 +6,7 @@
     -webkit-box-shadow: 0px 0px 20px #999;
     box-shadow: 0px 0px 20px #999;
     position: absolute;
-    width: 274px;
+    width: 280px;
     height: 190px;
     z-index: 1;
     font-size: 12px;
@@ -77,7 +77,7 @@
     height: 30px;
     line-height: 30px;
     text-align: center;
-    width: 71px;
+    width: 74px;
     padding: 0 4px;
 }
 
