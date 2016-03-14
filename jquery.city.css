@@ -6,10 +6,10 @@
     -webkit-box-shadow: 0px 0px 20px #999;
     box-shadow: 0px 0px 20px #999;
     position: absolute;
-    width: 280px;
-    height: 190px;
-    z-index: 1;
+    width: 282px;
+    height: 191px;
     font-size: 12px;
+    z-index: 1;
 }
 
 .city-head {
@@ -43,7 +43,7 @@
 }
 
 .city-content {
-    height: 160px;
+    height: 161px;
 }
 
 .city-contenting li {
@@ -55,7 +55,7 @@
     background-color: #fff;
     padding: 18px 0;
     height: 121px;
-    width: 222px;
+    width: 226px;
 }
 
 .city-action-prev, .city-action-next {
