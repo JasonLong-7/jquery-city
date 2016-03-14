@@ -25,7 +25,8 @@
 
     .city-tab li {
         float: left;
-        padding: 8px 0;
+        height: 32px;
+        line-height: 32px;
         position: relative;
         text-align: center;
         width: 69px;
@@ -64,9 +65,9 @@
     padding: 70px 9px;
 }
 
-.city-action-next:hover, .city-action-prev:hover{
-    cursor:pointer;
-}
+    .city-action-next:hover, .city-action-prev:hover {
+        cursor: pointer;
+    }
 
 .city-content-item li {
     float: left;
@@ -82,14 +83,14 @@
     padding: 0 4px;
 }
 
-.city-item-center a{
-    color:#5FA3D4;
-    text-decoration:none;
-}
+    .city-item-center a {
+        color: #5FA3D4;
+        text-decoration: none;
+    }
 
-.city-item-center a:hover{
-    color:#016B9F;
-}
+        .city-item-center a:hover {
+            color: #016B9F;
+        }
 
 .city-search {
     background-color: #fff;
