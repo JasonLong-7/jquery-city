@@ -1,0 +1,124 @@
+﻿
+.city-popup {
+    background-color: #fff;
+    border: 1px solid #016B9F;
+    -moz-box-shadow: 0px 0px 20px #999;
+    -webkit-box-shadow: 0px 0px 20px #999;
+    box-shadow: 0px 0px 20px #999;
+    position: absolute;
+    width: 274px;
+    height: 190px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.city-head {
+    border-bottom: 1px solid #016B9F;
+    height: 33px;
+}
+
+.city-tab, .city-contenting, .city-content-item, .city-search-item {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+    .city-tab li {
+        float: left;
+        padding: 8px 0;
+        position: relative;
+        text-align: center;
+        height: 32px;
+        width: 68px;
+    }
+
+        .city-tab li:hover {
+            color: #016B9F;
+            cursor: pointer;
+        }
+
+.city-tab-active {
+    background-color: #5FA3D4;
+    color: #016B9F;
+}
+
+.city-content {
+    height: 155px;
+}
+
+.city-contenting li {
+    float: left;
+    position: relative;
+}
+
+.city-content-center {
+    background-color: #fff;
+    padding: 17px 0;
+    width: 218px;
+}
+
+.city-action-prev, .city-action-next {
+    background-color: #016B9F;
+    color: #fff;
+    padding: 69px 10px;
+}
+
+    .city-action-next:hover, .city-action-prev:hover {
+        cursor: pointer;
+    }
+
+.city-content-item li {
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.city-item-center {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 71px;
+    padding: 0 4px;
+}
+
+    .city-item-center a {
+        color: #5FA3D4;
+        text-decoration: none;
+    }
+
+        .city-item-center a:hover {
+            color: #016B9F;
+        }
+
+.city-search {
+    background-color: #fff;
+    border: 1px solid #016B9F;
+    position: absolute;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.city-search-item li {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+    .city-search-item li:hover, .city-search-checked {
+        background-color: #016B9F;
+        color: #fff;
+        cursor: pointer;
+    }
+
+
+.text-sub {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.action-disabled {
+    background-color: #eee;
+    color: #999;
+    cursor: not-allowed;
+}
