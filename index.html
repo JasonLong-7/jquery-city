@@ -10,9 +10,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     
     <!-- 引用jquery-city相关css文件 -->
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/css/jquery.city.css" />
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/css/jquery.city.bootstrap.css" />
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/css/animate.min.css" />
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/css/jquery.city.css" media="screen">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/css/animate.min.css" media="screen">
   </head>
   <body>
     <section class="page-header">
@@ -49,7 +48,6 @@
 
   <!-- 引用jquery-city相关js文件 -->
   <script src="https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/js/jquery-1.10.2.js"></script>
-  <script src="https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/js/bootstrap.js"></script>
   <script src="https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/js/jquery.city.js"></script>
   
   <script>
@@ -57,15 +55,6 @@
       
       // 示例1
       $("#txt_demo1").jcity({
-        urlOrData:"https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/js/citydata.json",
-        animate: { showClass: 'animated flipInX', hideClass: 'animated flipOutX' },
-        onChoice: function (data) {
-            console.log(data);
-        }
-      });
-      
-      // 示例2（bootstrap）
-      $("#txt_demo2").jcity({
         urlOrData:"https://raw.githubusercontent.com/JasonLong-7/jquery-city/master/js/citydata.json",
         animate: { showClass: 'animated flipInX', hideClass: 'animated flipOutX' },
         onChoice: function (data) {
