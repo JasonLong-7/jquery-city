@@ -25,10 +25,10 @@
 
     .city-tab li {
         float: left;
-        line-height:32px;
+        line-height:31px;
         position: relative;
         text-align: center;
-        height: 32px;
+        height: 31px;
         width: 68px;
     }
 
