@@ -1,6 +1,15 @@
 # jquery-city
 这是一个基于jquery编写的地址选择插件
 
+客户端接收的jsons字符串格式
+```json
+{ 
+    "provinces": [ { "code": "1000", "name": "北京" }], 
+    "citys": [ { "code": "100001", "name": "北京", "fullPY": "BEIJING", "firstPY": "BJ", "provinceCode": "1000", "provinceName": "北京", "hotCity": true }],
+    "areas": [ { "code": "10000101", "name": " 东城区", "cityId": "100001", "fullPY": " DONGCHENGOU", "firstPY": " DCO", "provinceCode": "1000", "provinceName": "北京", "cityCode": "100001", "cityName": "北京" }]
+}
+```
+
 ### 如何使用？
 
 1.在`<head>`里面引用下面css资源
