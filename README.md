@@ -49,4 +49,4 @@
 ```
 
 ### 效果演示
-http://jasonlong-7.github.io/jquery-city/
+http://woo-long.github.io/jquery-city/
