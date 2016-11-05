@@ -1,5 +1,5 @@
 # jquery-city
-这是一个基于jquery编写的地址选择插件
+基于jquery编写的地址选择插件
 
 客户端接收的jsons字符串格式
 ```json
