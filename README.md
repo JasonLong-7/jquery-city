@@ -1,7 +1,7 @@
 # jquery-city
 基于jquery编写的地址选择插件
 
-客户端接收的jsons字符串格式
+客户端接收的json字符串格式
 ```json
 { 
     "provinces": [ { "code": "1000", "name": "北京" }], 
